@@ -21,11 +21,24 @@ public class ApplicationController {
         return "INSPIRAL MALL PUNE";
     }
 
+    @GetMapping("/dd")
+    public String dod()
+    {
+        return "Software dd";
+    }
+
     @GetMapping("/profile")
     public String profileCSI()
     {
         return "Software developer";
     }
+
+    @GetMapping("/loan")
+    public String loanmodule()
+    {
+        return "CSI LOAN MODULE";
+    }
+
 
 
 
