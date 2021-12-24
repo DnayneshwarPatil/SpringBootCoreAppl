@@ -21,6 +21,13 @@ public class ApplicationController {
         return "INSPIRAL MALL PUNE";
     }
 
+    @GetMapping("/profile")
+    public String profileCSI()
+    {
+        return "Software developer";
+    }
+
+
 
 
 
